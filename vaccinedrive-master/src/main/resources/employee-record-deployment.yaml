@@ -24,7 +24,7 @@ spec:
         io.kompose.service: employee-record
     spec:
       containers:
-      - image: employee-record:1.0
+      - image: rishaabh/employee-record:1.0
         imagePullPolicy: ""
         name: employee-record
         ports:
