@@ -1,10 +1,11 @@
-package com.sapient.vaccinedrive.controller;
+package com.ps.nextgen.vaccinedrive.resource;
 
 import java.util.List;
 
-import com.sapient.vaccinedrive.model.VaccinatedEmployeeDetails;
-import com.sapient.vaccinedrive.service.Micro2FeingClient;
-import com.sapient.vaccinedrive.utils.EmployeeRequest;
+import com.ps.nextgen.vaccinedrive.repository.impl.VaccinatedEmployeeDetails;
+import com.ps.nextgen.vaccinedrive.service.Micro2FeingClient;
+import com.ps.nextgen.vaccinedrive.service.impl.EmployeeDetailsImpl;
+import com.ps.nextgen.vaccinedrive.utils.EmployeeRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.http.HttpStatus;
@@ -15,8 +16,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.sapient.vaccinedrive.service.impl.EmployeeDetailsImpl;
 
 @RestController
 @EnableFeignClients

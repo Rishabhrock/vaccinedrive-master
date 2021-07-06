@@ -1,4 +1,4 @@
-package com.sapient.vaccinedrive;
+package com.ps.nextgen.vaccinedrive;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

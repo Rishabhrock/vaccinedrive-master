@@ -1,4 +1,4 @@
-package com.sapient.vaccinedrive;
+package com.ps.nextgen.vaccinedrive;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

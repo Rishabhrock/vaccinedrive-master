@@ -1,6 +1,6 @@
-package com.sapient.vaccinedrive.repository;
+package com.ps.nextgen.vaccinedrive.repository.dao;
 
-import com.sapient.vaccinedrive.model.EmployeeRecord;
+import com.ps.nextgen.vaccinedrive.repository.impl.EmployeeRecord;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

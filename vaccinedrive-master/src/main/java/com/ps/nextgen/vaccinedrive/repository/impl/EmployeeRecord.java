@@ -1,4 +1,4 @@
-package com.sapient.vaccinedrive.model;
+package com.ps.nextgen.vaccinedrive.repository.impl;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

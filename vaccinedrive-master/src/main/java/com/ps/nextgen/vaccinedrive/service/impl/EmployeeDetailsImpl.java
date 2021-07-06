@@ -1,10 +1,10 @@
-package com.sapient.vaccinedrive.service.impl;
+package com.ps.nextgen.vaccinedrive.service.impl;
 
 import com.google.gson.Gson;
-import com.sapient.vaccinedrive.model.EmployeeRecord;
-import com.sapient.vaccinedrive.model.VaccinatedEmployeeDetails;
-import com.sapient.vaccinedrive.repository.EmpRepository;
-import com.sapient.vaccinedrive.service.EmployeeDetails;
+import com.ps.nextgen.vaccinedrive.repository.dao.EmpRepository;
+import com.ps.nextgen.vaccinedrive.repository.impl.EmployeeRecord;
+import com.ps.nextgen.vaccinedrive.repository.impl.VaccinatedEmployeeDetails;
+import com.ps.nextgen.vaccinedrive.service.EmployeeDetails;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

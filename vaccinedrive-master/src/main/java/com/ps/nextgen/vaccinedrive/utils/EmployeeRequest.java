@@ -1,6 +1,6 @@
-package com.sapient.vaccinedrive.utils;
+package com.ps.nextgen.vaccinedrive.utils;
 
-import com.sapient.vaccinedrive.model.EmployeeRecord;
+import com.ps.nextgen.vaccinedrive.repository.impl.EmployeeRecord;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

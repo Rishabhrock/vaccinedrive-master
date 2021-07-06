@@ -6,14 +6,14 @@ metadata:
     kompose.version: 1.21.0 (992df58d8)
   creationTimestamp: null
   labels:
-    io.kompose.service: employee-record
-  name: employee-record
+    io.kompose.service: vaccination-record
+  name: vaccination-record
 spec:
   ports:
-  - name: "8091"
-    port: 8091
-    targetPort: 8091
+  - name: "8092"
+    port: 8092
+    targetPort: 8092
   selector:
-    io.kompose.service: employee-record
+    io.kompose.service: vaccination-record
 status:
   loadBalancer: {}

@@ -1,7 +1,7 @@
-package com.sapient.vaccinedrive.service;
+package com.ps.nextgen.vaccinedrive.service;
 
-import com.sapient.vaccinedrive.model.EmployeeRecord;
-import com.sapient.vaccinedrive.model.VaccinatedEmployeeDetails;
+import com.ps.nextgen.vaccinedrive.repository.impl.EmployeeRecord;
+import com.ps.nextgen.vaccinedrive.repository.impl.VaccinatedEmployeeDetails;
 
 import java.util.List;
 
