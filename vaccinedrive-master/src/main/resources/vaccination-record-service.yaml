@@ -9,6 +9,7 @@ metadata:
     io.kompose.service: vaccination-record
   name: vaccination-record
 spec:
+  type: LoadBalancer
   ports:
   - name: "8092"
     port: 8092

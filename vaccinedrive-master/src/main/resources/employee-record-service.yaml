@@ -9,6 +9,7 @@ metadata:
     io.kompose.service: employee-record
   name: employee-record
 spec:
+  type: LoadBalancer
   ports:
   - name: "8091"
     port: 8091
